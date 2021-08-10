@@ -1,4 +1,4 @@
-import { increase, decrease } from '../actions/counter';
+import { increase, decrease } from '../actions/counterActions';
 
 import { Action } from 'redux';
 import { isType } from 'typescript-fsa';

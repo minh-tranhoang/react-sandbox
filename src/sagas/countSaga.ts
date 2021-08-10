@@ -1,5 +1,5 @@
 import { put, takeEvery } from 'redux-saga/effects';
-import { increase, delayIncrease } from '../actions/counter';
+import { increase, delayIncrease } from '../actions/counterActions';
 
 const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
 

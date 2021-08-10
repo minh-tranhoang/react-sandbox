@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
 import count from './countReducer';
-import post from './postReducer';
+import request from './requestReducer';
 
 export default combineReducers({
   count,
-  post
+  request
 });
